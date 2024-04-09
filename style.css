@@ -1,0 +1,53 @@
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header{
+    background-color: ghostwhite;
+}
+
+.item{
+    margin-bottom: 30px;
+    
+}
+
+main{margin: 0 auto; padding-top: 50px; padding-bottom: 50px; width: 1200px;}
+
+img{height: 300px;
+border-bottom: 1px solid rgb(216, 216, 255);}
+
+
+.card-title{
+    color: red;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-img{
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    left: 250px;
+    top: 400px;  
+    color: chartreuse;
+    background-color: rgba(255, 255, 255, 0.338);
+    
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.quizz{
+    border: 1px solid rgb(216, 216, 255);
+    border-radius: 15px;
+}
